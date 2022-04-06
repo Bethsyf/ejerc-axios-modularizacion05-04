@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col mt-5 tituloPerfil">
+                  
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="div-usuario">
+            <div class="row usuario">
+                    <h1 class="Headline1">Crear Perfil</h1>
+                <div class="col datos">
+
+                </div>
+            </div>
+            <form id="formulario">
+                <div class="campo">
+                    <label for="name" class="form-label body1Regular label-edit">Nombre</label>
+                    <input id="name" name="name" class="ms-1 edit body1Regular form-control" type="text" placeholder="">
+                </div>
+                <div class="campo">
+                    <label for="lastName" class="form-label body1Regular label-edit">Apellido</label>
+                    <input id="lastName" name="lastName" class="ms-1 edit body1Regular form-control" type="text" placeholder="">
+                </div>
+                <div class="campo">
+                    <label for="email" class="form-label body1Regular label-edit">Correo</label>
+                    <input id="email" name="email" class="ms-1 edit body1Regular form-control" type="text" placeholder="">
+                </div>
+                <div class="campo">
+                    <label id="label-edit" for="id" class="form-label body1Regular label-edit">Id</label>
+                    <input id="id" name="id" class="ms-1 edit body1Regular form-control" type="text" placeholder=""
+                    readonly>
+                </div>
+                <div class="">
+                    <button id="btnGuardar" type="submit" class="btn btn-secondary buttom guardar-cambios">Guardar</button>
+                </div>
+                <div class="">
+                    <button id="btnCorreo" type="button" class="btn btn-secondary buttom guardar-cambios">Buscar por correo</button>
+                </div>
+                <div class="">
+                    <button id="btnEditar" type="button" class="btn btn-secondary buttom guardar-cambios">Editar</button>
+                </div>
+                <div class="">
+                    <button id="btnEliminar" type="button" class="btn btn-secondary buttom guardar-cambios">Eliminar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light menu-mascotas">
+            <div class="container-fluid">
+                <a class="nav-link active" aria-current="page" href="index.html" tabindex="-1">
+                    <img src="https://i.ibb.co/6gqbqj7/Property-1-home.png" alt="" width="24" height="24"></a>
+                <a class="nav-link" aria-current="page" href="#" tabindex="-1">
+                    <img class="icono-activo-perfil" src="https://i.ibb.co/2vzbqsF/perfil.png" alt="" width="24" height="24">
+                </a>
+            </div>
+        </nav>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="./script/main.js" type="module" ></script>
+</body>
+</html>
